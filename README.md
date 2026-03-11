@@ -137,6 +137,20 @@ Possible improvements include:
 
 ---
 
+## Results
+
+The generated solutions were evaluated by comparing them with the reference implementations from the HumanEval dataset.
+
+The similarity between the generated code and the canonical solutions was computed using the `difflib.SequenceMatcher` method.
+
+The evaluation results are stored in:
+
+results/similarity_results.csv
+
+Each row contains the task identifier and the corresponding similarity score.
+
+---
+
 ## Conclusion
 
 This project demonstrates a workflow for evaluating code generation using a locally deployed language model.  
